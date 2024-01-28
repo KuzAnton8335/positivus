@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Positivus</title>
+	<link rel="stylesheet" href="src/styles/styles.scss" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__inner container ">
+			<a href="#" class="header__logo logo">
+				<img src="src/images/logo.svg" alt="Positivus" width="220" height="36" loading="lazy" />
+			</a>
+			<nav class="header__menu hidden-mobail">
+				<ul class="header__menu-list">
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">About us</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link"> Services</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Use Cases</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Pricing</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link"> Blog</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="header__button button button--transparent hidden-mobail" type="button">Request a quote</button>
+
+			<button class="button__burger-menu burger-button visible-mobail" type="button"
+				onclick="mobailOverlay.showModal()">
+				<span class="visually-hidden">Open navigation mobail menu</span>
+			</button>
+		</div>
+	</header>
+
+	<dialog class="mobail-overlay visible-mobail" id="mobailOverlay">
+		<form class="mobail-overlay__close-button-wrapper">
+			<button class="mobail-overlay__close-button cross-button" type="submit" onclick="mobailOverlay.close()">
+				<span class="visually-hidden">Close navigation mobail menu</span>
+			</button>
+		</form>
+		<div class="mobail-overlay__body">
+			<ul class="mobail-overlay__list">
+				<li class="mobail-overlay__item">
+					<a href="#" class="mobail-overlay__link">About us</a>
+				</li>
+				<li class="mobail-overlay__item">
+					<a href="#" class="mobail-overlay__link">Services</a>
+				</li>
+				<li class="mobail-overlay__item">
+					<a href="#" class="mobail-overlay__link">Use Cases</a>
+				</li>
+				<li class="mobail-overlay__item">
+					<a href="#" class="mobail-overlay__link">Pricing</a>
+				</li>
+				<li class="mobail-overlay__item">
+					<a href="#" class="mobail-overlay__link">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</dialog>
+</body>
+
+</html>
