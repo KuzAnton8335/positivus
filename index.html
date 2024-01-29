@@ -3,13 +3,14 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<link rel="icon" type="image/svg+xml" href="src/images/icon/Icon.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Positivus</title>
 	<link rel="stylesheet" href="src/styles/styles.scss" />
 </head>
 
 <body>
+	<!-- header -->
 	<header class="header">
 		<div class="header__inner container ">
 			<a href="#" class="header__logo logo">
@@ -42,7 +43,62 @@
 			</button>
 		</div>
 	</header>
+	<!-- /header -->
 
+	<main class="content">
+		<section class="section container">
+			<div class="section__body">
+				<div class="hero">
+					<div class="hero__main">
+						<div class="hero__body">
+							<h1 class="hero__title">
+								Navigating the digital landscape for success
+							</h1>
+							<div class="hero__descr">
+								<p>Our digital marketing agency helps businesses grow and succeed online
+									through a&nbsp;range of&nbsp;services including SEO, PPC, social media marketing, and content
+									creation.</p>
+							</div>
+							<button class="hero__button button">Book a consultation</button>
+						</div>
+						<img src="src/images/hero-bg.svg" alt="" class="hero__image" loading='lazy' width="600"
+							height="515" />
+					</div>
+					<div class="hero__partners">
+						<h2 class="visually-hidden">Our partners</h2>
+						<ul class="hero__partners-list">
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-1.svg" alt="amazon" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-2.svg" alt="dribble" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-3.svg" alt="hubSpot" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-4.svg" alt="notion" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-5.svg" alt="notion" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+							<li class="hero__partners-item">
+								<img src="src/images/hero-partners/hero-partn-6.svg" alt="hubSpot" class="hero__partners-image"
+									width="130" height="48" loading="lazy">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- dialog -->
 	<dialog class="mobail-overlay visible-mobail" id="mobailOverlay">
 		<form class="mobail-overlay__close-button-wrapper">
 			<button class="mobail-overlay__close-button cross-button" type="submit" onclick="mobailOverlay.close()">
@@ -69,6 +125,7 @@
 			</ul>
 		</div>
 	</dialog>
+	<!-- /dialog -->
 </body>
 
 </html>
