@@ -18,6 +18,10 @@
 
     &:not(:last-child) {
       margin-bottom: 80px;
+
+      @include mobail {
+        margin-bottom: 40px;
+      }
     }
   }
 
