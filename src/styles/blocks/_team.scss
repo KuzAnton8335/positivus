@@ -1,0 +1,17 @@
+.team {
+	display: flex;
+	flex-direction: column;
+
+	&__list {
+		margin-bottom: 40px;
+	}
+
+	&__button {
+		align-self: end;
+		min-width: 269px;
+
+		@include mobail-s {
+			width: 100%;
+		}
+	}
+}
