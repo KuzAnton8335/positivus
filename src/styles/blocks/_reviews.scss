@@ -1,0 +1,26 @@
+.reviews {
+  padding-top: 84px;
+  padding-bottom: 68px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 124px;
+  color: var(--color-light);
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius-large);
+}
+
+.reviews__slider {
+  --reviewsSliderSlideWith: 660px;
+  &-list {
+    display: flex;
+    column-gap: 50px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    margin-left: calc(var(--reviewsSliderSlideWith) / 2 * -1);
+  }
+
+  &-item {
+    min-width: var(--reviewsSliderSlideWith);
+    scroll-snap-align: start;
+  }
+}

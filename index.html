@@ -2,656 +2,802 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<link rel="icon" type="image/svg+xml" href="src/images/icon/Icon.svg" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Positivus</title>
-	<link rel="stylesheet" href="src/styles/styles.scss" />
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="src/images/icon/Icon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Positivus</title>
+  <link rel="stylesheet" href="src/styles/styles.scss" />
 </head>
 
 <body>
-	<!-- header -->
-	<header class="header">
-		<div class="header__inner container ">
-			<a href="#" class="header__logo logo">
-				<img src="src/images/logo.svg" alt="Positivus" width="220" height="36" loading="lazy" />
-			</a>
-			<nav class="header__menu hidden-mobail">
-				<ul class="header__menu-list">
-					<li class="header__menu-item">
-						<a href="#" class="header__menu-link">About us</a>
-					</li>
-					<li class="header__menu-item">
-						<a href="#" class="header__menu-link"> Services</a>
-					</li>
-					<li class="header__menu-item">
-						<a href="#" class="header__menu-link">Use Cases</a>
-					</li>
-					<li class="header__menu-item">
-						<a href="#" class="header__menu-link">Pricing</a>
-					</li>
-					<li class="header__menu-item">
-						<a href="#" class="header__menu-link"> Blog</a>
-					</li>
-				</ul>
-			</nav>
-			<button class="header__button button button--transparent hidden-mobail" type="button">Request a quote</button>
+  <!-- header -->
+  <header class="header">
+    <div class="header__inner container ">
+      <a href="#" class="header__logo logo">
+        <img src="src/images/logo.svg" alt="Positivus" width="220" height="36" loading="lazy" />
+      </a>
+      <nav class="header__menu hidden-mobail">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">About us</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link"> Services</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Use Cases</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Pricing</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link"> Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button button button--transparent hidden-mobail" type="button">Request a quote</button>
 
-			<button class="button__burger-menu burger-button visible-mobail" type="button"
-				onclick="mobailOverlay.showModal()">
-				<span class="visually-hidden">Open navigation mobail menu</span>
-			</button>
-		</div>
-	</header>
-	<!-- /header -->
+      <button class="button__burger-menu burger-button visible-mobail" type="button"
+        onclick="mobailOverlay.showModal()">
+        <span class="visually-hidden">Open navigation mobail menu</span>
+      </button>
+    </div>
+  </header>
+  <!-- /header -->
 
-	<main class="content">
-		<section class="section section--hidden-x container">
-			<div class="section__body">
-				<div class="hero">
-					<div class="hero__main">
-						<div class="hero__body">
-							<h1 class="hero__title">
-								Navigating the digital landscape for success
-							</h1>
-							<div class="hero__descr">
-								<p>Our digital marketing agency helps businesses grow and succeed online
-									through a&nbsp;range of&nbsp;services including SEO, PPC, social media marketing, and content
-									creation.</p>
-							</div>
-							<button class="hero__button button">Book a consultation</button>
-						</div>
-						<img src="src/images/hero-bg.svg" alt="" class="hero__image" width="600" height="515"
-							loading="eager" />
-					</div>
-					<div class="hero__partners">
-						<h2 class="visually-hidden">Our partners</h2>
-						<ul class="hero__partners-list">
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-1.svg" alt="amazon" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-2.svg" alt="dribble" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-3.svg" alt="hubSpot" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-4.svg" alt="notion" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-5.svg" alt="notion" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-							<li class="hero__partners-item">
-								<img src="src/images/hero-partners/hero-partn-6.svg" alt="hubSpot" class="hero__partners-image"
-									width="130" height="48" loading="lazy">
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
+  <main class="content">
+    <section class="section section--hidden-x container">
+      <div class="section__body">
+        <div class="hero">
+          <div class="hero__main">
+            <div class="hero__body">
+              <h1 class="hero__title">
+                Navigating the digital landscape for success
+              </h1>
+              <div class="hero__descr">
+                <p>Our digital marketing agency helps businesses grow and succeed online
+                  through a&nbsp;range of&nbsp;services including SEO, PPC, social media marketing, and content
+                  creation.</p>
+              </div>
+              <button class="hero__button button">Book a consultation</button>
+            </div>
+            <img src="src/images/hero-bg.svg" alt="" class="hero__image" width="600" height="515" loading="eager" />
+          </div>
+          <div class="hero__partners">
+            <h2 class="visually-hidden">Our partners</h2>
+            <ul class="hero__partners-list">
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-1.svg" alt="amazon" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-2.svg" alt="dribble" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-3.svg" alt="hubSpot" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-4.svg" alt="notion" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-5.svg" alt="notion" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+              <li class="hero__partners-item">
+                <img src="src/images/hero-partners/hero-partn-6.svg" alt="hubSpot" class="hero__partners-image"
+                  width="130" height="48" loading="lazy">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<section class="section container">
-			<header class="section__header">
-				<h2 class="section__title paddle-bg">Services</h2>
-				<div class="section__descr">
-					<p>At&nbsp;our digital marketing agency, we&nbsp;offer a&nbsp;range of&nbsp;services to&nbsp;help
-						businesses grow and succeed online. These services include:</p>
-				</div>
-			</header>
-			<div class="section__body">
-				<div class="services">
-					<ul class="services__list grid grid--2">
-						<li class="services__item ">
-							<article class="services-card">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg"> Search engine</span>
-										<span class="paddle-bg">optimization</span>
-									</h3>
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title paddle-bg">Services</h2>
+        <div class="section__descr">
+          <p>At&nbsp;our digital marketing agency, we&nbsp;offer a&nbsp;range of&nbsp;services to&nbsp;help
+            businesses grow and succeed online. These services include:</p>
+        </div>
+      </header>
+      <div class="section__body">
+        <div class="services">
+          <ul class="services__list grid grid--2">
+            <li class="services__item ">
+              <article class="services-card">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg"> Search engine</span>
+                    <span class="paddle-bg">optimization</span>
+                  </h3>
 
-									<a href="/" class="services-card__link">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-1.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-						<li class="services__item">
-							<article class="services-card services-card--accent-bg">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg paddle-bg--light"> Pay-per-click</span>
-										<span class="paddle-bg paddle-bg--light">advertising</span>
-									</h3>
+                  <a href="/" class="services-card__link">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-1.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card services-card--accent-bg">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg paddle-bg--light"> Pay-per-click</span>
+                    <span class="paddle-bg paddle-bg--light">advertising</span>
+                  </h3>
 
-									<a href="/" class="services-card__link">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-2.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-						<li class="services__item">
-							<article class="services-card services-card--dark-bg">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg paddle-bg--light">Social Media</span>
-										<span class="paddle-bg paddle-bg--light">Marketing</span>
-									</h3>
+                  <a href="/" class="services-card__link">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-2.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card services-card--dark-bg">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg paddle-bg--light">Social Media</span>
+                    <span class="paddle-bg paddle-bg--light">Marketing</span>
+                  </h3>
 
-									<a href="/" class="services-card__link services-card__link--light">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-3.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-						<li class="services__item">
-							<article class="services-card">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg">Email</span>
-										<span class="paddle-bg">Marketing</span>
-									</h3>
+                  <a href="/" class="services-card__link services-card__link--light">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-3.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg">Email</span>
+                    <span class="paddle-bg">Marketing</span>
+                  </h3>
 
-									<a href="/" class="services-card__link">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-4.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-						<li class="services__item">
-							<article class="services-card services-card--accent-bg">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg paddle-bg--light">Content</span>
-										<span class="paddle-bg paddle-bg--light">Creation</span>
-									</h3>
+                  <a href="/" class="services-card__link">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-4.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card services-card--accent-bg">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg paddle-bg--light">Content</span>
+                    <span class="paddle-bg paddle-bg--light">Creation</span>
+                  </h3>
 
-									<a href="/" class="services-card__link">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-5.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-						<li class="services__item">
-							<article class="services-card services-card--dark-bg">
-								<div class="services-card__body">
-									<h3 class="services-card__title">
-										<span class="paddle-bg">Analytics and </span>
-										<span class="paddle-bg">Tracking</span>
-									</h3>
+                  <a href="/" class="services-card__link">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-5.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+            <li class="services__item">
+              <article class="services-card services-card--dark-bg">
+                <div class="services-card__body">
+                  <h3 class="services-card__title">
+                    <span class="paddle-bg">Analytics and </span>
+                    <span class="paddle-bg">Tracking</span>
+                  </h3>
 
-									<a href="/" class="services-card__link services-card__link--light">
-										<span class="services-card__link-icon-wrapper">
-											<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-													fill="currentColor" />
-											</svg>
-										</span>
-										<span class="services-card__link-label">Learn more</span>
-									</a>
-								</div>
-								<img src="src/images/services-card/services-card-6.svg" alt="" class="services-card__image"
-									width="210" height="170" loading="lazy">
-							</article>
-						</li>
-					</ul>
-					<div class="services__banner banner">
-						<div class="banner__inner">
-							<div class="banner__body">
-								<h3 class="banner__title">Let&rsquo;s make things happen</h3>
-								<div class="banner__descr">
-									<p>Contact&nbsp;us today to&nbsp;learn more about how our digital marketing services can help
-										your
-										business grow and succeed online.</p>
-								</div>
-								<button class="banner__button button">Get your free proposal</button>
-							</div>
-							<img src="src/images/services-card/services-card__banner.svg" alt=""
-								class="banner__image hidden-mobail" width="494" height="394" loading="lazy">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+                  <a href="/" class="services-card__link services-card__link--light">
+                    <span class="services-card__link-icon-wrapper">
+                      <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                          fill="currentColor" />
+                      </svg>
+                    </span>
+                    <span class="services-card__link-label">Learn more</span>
+                  </a>
+                </div>
+                <img src="src/images/services-card/services-card-6.svg" alt="" class="services-card__image" width="210"
+                  height="170" loading="lazy">
+              </article>
+            </li>
+          </ul>
+          <div class="services__banner banner">
+            <div class="banner__inner">
+              <div class="banner__body">
+                <h3 class="banner__title">Let&rsquo;s make things happen</h3>
+                <div class="banner__descr">
+                  <p>Contact&nbsp;us today to&nbsp;learn more about how our digital marketing services can help
+                    your
+                    business grow and succeed online.</p>
+                </div>
+                <button class="banner__button button">Get your free proposal</button>
+              </div>
+              <img src="src/images/services-card/services-card__banner.svg" alt="" class="banner__image hidden-mobail"
+                width="494" height="394" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<section class="section section--hidden-x container">
-			<header class="section__header">
-				<h2 class="section__title paddle-bg">Case Studies</h2>
-				<div class="section__descr">
-					<p>Explore Real-Life Examples of&nbsp;Our Proven Digital Marketing Success through Our Case Studies</p>
-				</div>
-			</header>
-			<div class="section__body">
-				<div class="studios">
-					<ul class="studios__list">
-						<li class="studios__item">
-							<div class="studios__descr">
-								<p>
-									For a&nbsp;local restaurant, we&nbsp;implemented a&nbsp;targeted PPC campaign that resulted
-									in&nbsp;a&nbsp;50% increase in&nbsp;website traffic and a&nbsp;25% increase in&nbsp;sales.
-								</p>
-								<a href="/" class="studios__link">
-									<span>Learn more</span>
-									<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-											fill="currentColor" />
-									</svg>
-								</a>
-							</div>
-						</li>
-						<li class="studios__item">
-							<div class="studios__descr">
-								<p>
-									For a&nbsp;B2B software company, we&nbsp;developed an&nbsp;SEO strategy that resulted
-									in&nbsp;a&nbsp;first page ranking for key keywords and a&nbsp;200% increase in&nbsp;organic
-									traffic.
-								</p>
-								<a href="/" class="studios__link">
-									<span>Learn more</span>
-									<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-											fill="currentColor" />
-									</svg>
-								</a>
-							</div>
-						</li>
-						<li class="studios__item">
-							<div class="studios__descr">
-								<p>
-									For a&nbsp;national retail chain, we&nbsp;created a&nbsp;social media marketing campaign that
-									increased followers by&nbsp;25% and generated a&nbsp;20% increase in&nbsp;online sales.
-								</p>
-								<a href="/" class="studios__link">
-									<span>Learn more</span>
-									<svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
-											fill="currentColor" />
-									</svg>
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
+    <section class="section section--hidden-x container">
+      <header class="section__header">
+        <h2 class="section__title paddle-bg">Case Studies</h2>
+        <div class="section__descr">
+          <p>Explore Real-Life Examples of&nbsp;Our Proven Digital Marketing Success through Our Case Studies</p>
+        </div>
+      </header>
+      <div class="section__body">
+        <div class="studios">
+          <ul class="studios__list">
+            <li class="studios__item">
+              <div class="studios__descr">
+                <p>
+                  For a&nbsp;local restaurant, we&nbsp;implemented a&nbsp;targeted PPC campaign that resulted
+                  in&nbsp;a&nbsp;50% increase in&nbsp;website traffic and a&nbsp;25% increase in&nbsp;sales.
+                </p>
+                <a href="/" class="studios__link">
+                  <span>Learn more</span>
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                      fill="currentColor" />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="studios__item">
+              <div class="studios__descr">
+                <p>
+                  For a&nbsp;B2B software company, we&nbsp;developed an&nbsp;SEO strategy that resulted
+                  in&nbsp;a&nbsp;first page ranking for key keywords and a&nbsp;200% increase in&nbsp;organic
+                  traffic.
+                </p>
+                <a href="/" class="studios__link">
+                  <span>Learn more</span>
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                      fill="currentColor" />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="studios__item">
+              <div class="studios__descr">
+                <p>
+                  For a&nbsp;national retail chain, we&nbsp;created a&nbsp;social media marketing campaign that
+                  increased followers by&nbsp;25% and generated a&nbsp;20% increase in&nbsp;online sales.
+                </p>
+                <a href="/" class="studios__link">
+                  <span>Learn more</span>
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"
+                      fill="currentColor" />
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-		<section class="section container">
-			<header class="section__header">
-				<h2 class="section__title paddle-bg">Our Working Process</h2>
-				<div class="section__descr">
-					<p>Step-by-Step Guide to . Your<br> Business Goals</p>
-				</div>
-			</header>
-			<div class="section__body">
-				<div class="process">
-					<ol class="process__list">
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Consultation</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Research and Strategy Development</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Implementation</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Monitoring and Optimization</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Reporting and Communication</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-						<li class="process__item">
-							<details class="process__accordion">
-								<summary class="process__accordion-header">
-									<h3 class="process__accordion-title">Continual Improvement</h3>
-									<span class="process__accordion-indicator"></span>
-								</summary>
-								<div class="process__accordion-body">
-									<p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
-										target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
-										your needs and tailor our services to&nbsp;best fit your requirements.</p>
-								</div>
-							</details>
-						</li>
-					</ol>
-				</div>
-			</div>
-		</section>
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title paddle-bg">Our Working Process</h2>
+        <div class="section__descr">
+          <p>Step-by-Step Guide to . Your<br> Business Goals</p>
+        </div>
+      </header>
+      <div class="section__body">
+        <div class="process">
+          <ol class="process__list">
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Consultation</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Research and Strategy Development</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Implementation</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Monitoring and Optimization</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Reporting and Communication</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+            <li class="process__item">
+              <details class="process__accordion">
+                <summary class="process__accordion-header">
+                  <h3 class="process__accordion-title">Continual Improvement</h3>
+                  <span class="process__accordion-indicator"></span>
+                </summary>
+                <div class="process__accordion-body">
+                  <p>During the initial consultation, we&nbsp;will discuss your business goals and objectives,
+                    target audience, and current marketing efforts. This will allow&nbsp;us to&nbsp;understand
+                    your needs and tailor our services to&nbsp;best fit your requirements.</p>
+                </div>
+              </details>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-		<section class="section container">
-			<header class="section__header">
-				<h2 class="section__title paddle-bg">Team</h2>
-				<div class="section__descr">
-					<p>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
-				</div>
-			</header>
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title paddle-bg">Team</h2>
+        <div class="section__descr">
+          <p>Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+        </div>
+      </header>
 
-			<div class="section__body">
-				<div class="team">
-					<ul class="team__list grid grid--3">
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-1.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">John Smith</h3>
-										<p class="team-card__post">CEO and Founder</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>10+&nbsp;years of&nbsp;experience in&nbsp;digital marketing. Expertise in&nbsp;SEO, PPC,
-										and content strategy</p>
-								</div>
-							</article>
-						</li>
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-2.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">Jane Doe</h3>
-										<p class="team-card__post">Director of Operations</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>7+&nbsp;years of&nbsp;experience in&nbsp;project management and team leadership. Strong
-										organizational and communication skills</p>
-								</div>
-							</article>
-						</li>
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-3.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">Michael Brown</h3>
-										<p class="team-card__post">DSenior SEO Specialist</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>5+&nbsp;years of&nbsp;experience in&nbsp;SEO and content creation. Proficient
-										in&nbsp;keyword research and on-page optimization</p>
-								</div>
-							</article>
-						</li>
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-4.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">Emily Johnson</h3>
-										<p class="team-card__post">DPPC Manager</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>3+&nbsp;years of&nbsp;experience in&nbsp;paid search advertising. Skilled in&nbsp;campaign
-										management and performance analysis</p>
-								</div>
-							</article>
-						</li>
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-5.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">Brian Williams</h3>
-										<p class="team-card__post">Social Media Specialist</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>4+&nbsp;years of&nbsp;experience in&nbsp;social media marketing. Proficient
-										in&nbsp;creating and scheduling content, analyzing metrics, and building engagement</p>
-								</div>
-							</article>
-						</li>
-						<li class="team__item">
-							<article class="team-card">
-								<header class="team-card__header">
-									<img src="src/images/team-images/team-6.svg" alt="" class="team-card__img" width="100"
-										height="100" loading="lazy">
-									<div class="team-card__info">
-										<h3 class="team-card__name h4">Sarah Kim</h3>
-										<p class="team-card__post">SContent Creator</p>
-									</div>
-									<a href="/" class="team-card__link" target="_blank">
-										<span class="visually-hidden">LinkedIn</span>
-										<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
-											<path
-												d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
-												fill="#B9FF66" />
-											<path
-												d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
-												fill="#B9FF66" />
-										</svg>
-									</a>
-								</header>
-								<div class="team-card__body">
-									<p>2+&nbsp;years of&nbsp;experience in&nbsp;writing and editing
-										Skilled in&nbsp;creating compelling, SEO-optimized content for various industries</p>
-								</div>
-							</article>
-						</li>
-					</ul>
-					<button class="team__button button">See all team</button>
-				</div>
-			</div>
-		</section>
-	</main>
+      <div class="section__body">
+        <div class="team">
+          <ul class="team__list grid grid--3">
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-1.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">John Smith</h3>
+                    <p class="team-card__post">CEO and Founder</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>10+&nbsp;years of&nbsp;experience in&nbsp;digital marketing. Expertise in&nbsp;SEO, PPC,
+                    and content strategy</p>
+                </div>
+              </article>
+            </li>
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-2.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">Jane Doe</h3>
+                    <p class="team-card__post">Director of Operations</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>7+&nbsp;years of&nbsp;experience in&nbsp;project management and team leadership. Strong
+                    organizational and communication skills</p>
+                </div>
+              </article>
+            </li>
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-3.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">Michael Brown</h3>
+                    <p class="team-card__post">DSenior SEO Specialist</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>5+&nbsp;years of&nbsp;experience in&nbsp;SEO and content creation. Proficient
+                    in&nbsp;keyword research and on-page optimization</p>
+                </div>
+              </article>
+            </li>
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-4.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">Emily Johnson</h3>
+                    <p class="team-card__post">DPPC Manager</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>3+&nbsp;years of&nbsp;experience in&nbsp;paid search advertising. Skilled in&nbsp;campaign
+                    management and performance analysis</p>
+                </div>
+              </article>
+            </li>
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-5.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">Brian Williams</h3>
+                    <p class="team-card__post">Social Media Specialist</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>4+&nbsp;years of&nbsp;experience in&nbsp;social media marketing. Proficient
+                    in&nbsp;creating and scheduling content, analyzing metrics, and building engagement</p>
+                </div>
+              </article>
+            </li>
+            <li class="team__item">
+              <article class="team-card">
+                <header class="team-card__header">
+                  <img src="src/images/team-images/team-6.svg" alt="" class="team-card__img" width="100" height="100"
+                    loading="lazy">
+                  <div class="team-card__info">
+                    <h3 class="team-card__name h4">Sarah Kim</h3>
+                    <p class="team-card__post">SContent Creator</p>
+                  </div>
+                  <a href="/" class="team-card__link" target="_blank">
+                    <span class="visually-hidden">LinkedIn</span>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.317757 17H3.81308V5.68438H0.317757V17Z" fill="#B9FF66" />
+                      <path
+                        d="M0 2.07188C0 3.1875 0.900311 4.09062 2.06542 4.09062C3.17757 4.09062 4.07788 3.1875 4.07788 2.07188C4.07788 0.95625 3.17757 0 2.06542 0C0.900311 0 0 0.95625 0 2.07188Z"
+                        fill="#B9FF66" />
+                      <path
+                        d="M13.4517 17H17V10.7844C17 7.75625 16.3115 5.36562 12.7632 5.36562C11.0685 5.36562 9.90343 6.32188 9.42679 7.225H9.37383V5.68438H6.03738V17H9.53271V11.4219C9.53271 9.93437 9.79751 8.5 11.6511 8.5C13.4517 8.5 13.4517 10.2 13.4517 11.475V17Z"
+                        fill="#B9FF66" />
+                    </svg>
+                  </a>
+                </header>
+                <div class="team-card__body">
+                  <p>2+&nbsp;years of&nbsp;experience in&nbsp;writing and editing
+                    Skilled in&nbsp;creating compelling, SEO-optimized content for various industries</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <button class="team__button button">See all team</button>
+        </div>
+      </div>
+    </section>
 
-	<!-- dialog -->
-	<dialog class="mobail-overlay visible-mobail" id="mobailOverlay">
-		<form class="mobail-overlay__close-button-wrapper">
-			<button class="mobail-overlay__close-button cross-button" type="submit" onclick="mobailOverlay.close()">
-				<span class="visually-hidden">Close navigation mobail menu</span>
-			</button>
-		</form>
-		<div class="mobail-overlay__body">
-			<ul class="mobail-overlay__list">
-				<li class="mobail-overlay__item">
-					<a href="#" class="mobail-overlay__link">About us</a>
-				</li>
-				<li class="mobail-overlay__item">
-					<a href="#" class="mobail-overlay__link">Services</a>
-				</li>
-				<li class="mobail-overlay__item">
-					<a href="#" class="mobail-overlay__link">Use Cases</a>
-				</li>
-				<li class="mobail-overlay__item">
-					<a href="#" class="mobail-overlay__link">Pricing</a>
-				</li>
-				<li class="mobail-overlay__item">
-					<a href="#" class="mobail-overlay__link">Blog</a>
-				</li>
-			</ul>
-		</div>
-	</dialog>
-	<!-- /dialog -->
+    <section class="section container">
+      <header class="section__header">
+        <h2 class="section__title paddle-bg">Testimonials</h2>
+        <div class="section__descr">
+          <p>Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services
+          </p>
+        </div>
+      </header>
+      <div class="section__body">
+        <div class="reviews">
+          <div class="reviews__slider">
+            <ul class="reviews__slider-list">
+              <li class="reviews__slider-item">
+                <blockquote class="reviews-card">
+                  <div class="reviews-card__body">
+                    <p>"We have been working with Positivus for the past year and have seen a significant increase in
+                      website traffic and leads as a result of their efforts. The team is professional, responsive, and
+                      truly cares about the success of our business. We highly recommend Positivus to any company
+                      looking to grow their online presence."</p>
+                  </div>
+                  <footer class="reviews-card__footer">
+                    <cite class="reviews-card__name">John Smith</cite>
+                    <cite class="reviews-card__company">Marketing Director at XYZ Corp</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="reviews__slider-item">
+                <blockquote class="reviews-card">
+                  <div class="reviews-card__body">
+                    <p>"We have been working with Positivus for the past year and have seen a significant increase in
+                      website traffic and leads as a result of their efforts. The team is professional, responsive, and
+                      truly cares about the success of our business. We highly recommend Positivus to any company
+                      looking to grow their online presence."</p>
+                  </div>
+                  <footer class="reviews-card__footer">
+                    <cite class="reviews-card__name">John Smith</cite>
+                    <cite class="reviews-card__company">Marketing Director at XYZ Corp</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="reviews__slider-item">
+                <blockquote class="reviews-card">
+                  <div class="reviews-card__body">
+                    <p>"We have been working with Positivus for the past year and have seen a significant increase in
+                      website traffic and leads as a result of their efforts. The team is professional, responsive, and
+                      truly cares about the success of our business. We highly recommend Positivus to any company
+                      looking to grow their online presence."</p>
+                  </div>
+                  <footer class="reviews-card__footer">
+                    <cite class="reviews-card__name">John Smith</cite>
+                    <cite class="reviews-card__company">Marketing Director at XYZ Corp</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="reviews__slider-item">
+                <blockquote class="reviews-card">
+                  <div class="reviews-card__body">
+                    <p>"We have been working with Positivus for the past year and have seen a significant increase in
+                      website traffic and leads as a result of their efforts. The team is professional, responsive, and
+                      truly cares about the success of our business. We highly recommend Positivus to any company
+                      looking to grow their online presence."</p>
+                  </div>
+                  <footer class="reviews-card__footer">
+                    <cite class="reviews-card__name">John Smith</cite>
+                    <cite class="reviews-card__company">Marketing Director at XYZ Corp</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="reviews__slider-item">
+                <blockquote class="reviews-card">
+                  <div class="reviews-card__body">
+                    <p>"We have been working with Positivus for the past year and have seen a significant increase in
+                      website traffic and leads as a result of their efforts. The team is professional, responsive, and
+                      truly cares about the success of our business. We highly recommend Positivus to any company
+                      looking to grow their online presence."</p>
+                  </div>
+                  <footer class="reviews-card__footer">
+                    <cite class="reviews-card__name">John Smith</cite>
+                    <cite class="reviews-card__company">Marketing Director at XYZ Corp</cite>
+                  </footer>
+                </blockquote>
+              </li>
+            </ul>
+          </div>
+          <div class="reviews__actions">
+            <button class="reviews__arrow-button" type="button">
+              <span class="visually-hidden">Previous slide</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22 13.5C22.8284 13.5 23.5 12.8284 23.5 12C23.5 11.1716 22.8284 10.5 22 10.5L22 13.5ZM0.939341 10.9393C0.353554 11.5251 0.353554 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97918 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.939341 10.9393ZM22 10.5L2 10.5L2 13.5L22 13.5L22 10.5Z"
+                  fill="white" fill-opacity="0.3" />
+              </svg>
+            </button>
+            <div class="reviews__pagination pagination">
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <button class="pagination__button is-current" type="button">
+                    <span class="visually-hidden">First slide</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </li>
+                <li class="pagination__item">
+                  <button class="pagination__button" type="button">
+                    <span class="visually-hidden">Second slide</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </li>
+                <li class="pagination__item">
+                  <button class="pagination__button" type="button">
+                    <span class="visually-hidden">Third slide</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </li>
+                <li class="pagination__item">
+                  <button class="pagination__button" type="button">
+                    <span class="visually-hidden">Fouth slide</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </li>
+                <li class="pagination__item">
+                  <button class="pagination__button" type="button">
+                    <span class="visually-hidden">Fifth slide</span>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z"
+                        fill="currentColor" />
+                    </svg>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <button class="reviews__arrow-button" type="button">
+              <span class="visually-hidden">Next slide</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM23.0607 13.0607C23.6464 12.4749 23.6464 11.5251 23.0607 10.9393L13.5147 1.3934C12.9289 0.807613 11.9792 0.807613 11.3934 1.3934C10.8076 1.97919 10.8076 2.92893 11.3934 3.51472L19.8787 12L11.3934 20.4853C10.8076 21.0711 10.8076 22.0208 11.3934 22.6066C11.9792 23.1924 12.9289 23.1924 13.5147 22.6066L23.0607 13.0607ZM2 13.5L22 13.5L22 10.5L2 10.5L2 13.5Z"
+                  fill="white" />
+              </svg>
+
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- dialog -->
+  <dialog class="mobail-overlay visible-mobail" id="mobailOverlay">
+    <form class="mobail-overlay__close-button-wrapper">
+      <button class="mobail-overlay__close-button cross-button" type="submit" onclick="mobailOverlay.close()">
+        <span class="visually-hidden">Close navigation mobail menu</span>
+      </button>
+    </form>
+    <div class="mobail-overlay__body">
+      <ul class="mobail-overlay__list">
+        <li class="mobail-overlay__item">
+          <a href="#" class="mobail-overlay__link">About us</a>
+        </li>
+        <li class="mobail-overlay__item">
+          <a href="#" class="mobail-overlay__link">Services</a>
+        </li>
+        <li class="mobail-overlay__item">
+          <a href="#" class="mobail-overlay__link">Use Cases</a>
+        </li>
+        <li class="mobail-overlay__item">
+          <a href="#" class="mobail-overlay__link">Pricing</a>
+        </li>
+        <li class="mobail-overlay__item">
+          <a href="#" class="mobail-overlay__link">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </dialog>
+  <!-- /dialog -->
 </body>
 
 </html>
