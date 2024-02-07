@@ -779,8 +779,41 @@
       <div class="section__body">
         <div class="contact-us">
           <form class="contact-us__form">
-            <fieldset class="contact-us__request-types radios"></fieldset>
-            <div class="contact-us__body"></div>
+            <fieldset class="contact-us__request-types radios">
+              <legend class="radios__title visually-hidden">Request type</legend>
+              <label class="radios__item radio">
+                <input type="radio" class="radio__input visually-hidden" name="request-type" value="Say Hi" checked>
+                <span class="radio__emulator"></span>
+                <span class="radio__label">Say Hi</span>
+              </label>
+              <label class="radios__item radio">
+                <input type="radio" class="radio__input visually-hidden" name="request-type" value="Get a Quote">
+                <span class="radio__emulator"></span>
+                <span class="radio__label">Get a Quote</span>
+              </label>
+            </fieldset>
+            <div class="contact-us__body">
+              <div class="contact-us__field field">
+                <label class="field__label" for="name">
+                  Name
+                </label>
+                <input type="text" class="field__input" id="name" name="name" placeholder="Name">
+              </div>
+              <div class="contact-us__field field">
+                <label class="field__label" for="email">
+                  Email*
+                </label>
+                <input type="email" class="field__input" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="contact-us__field field">
+                <label class="field__label" for="name">
+                  Message*
+                </label>
+                <textarea type="text" class="field__input field__input--textarea" id="message" name="message"
+                  placeholder="Message" required></textarea>
+              </div>
+              <buttton class="contact-us__button button" type="submit">Send Message</buttton>
+            </div>
           </form>
         </div>
       </div>
